@@ -1,7 +1,7 @@
 ```markdown
 # Hear-2-See 🌟 - Bridging the Gap Between Sight and Sound
 
-![Hear-2-See](link_to_your_logo_or_screenshot.png)
+![Hear-2-See] 👀👂
 
 Hear-2-See is a groundbreaking project that transforms images into meaningful sounds, empowering visually impaired individuals to understand their surroundings like never before.
 
@@ -73,7 +73,7 @@ streamlit run your_app.py
 
 We value your feedback and are always open to suggestions and collaboration. If you have any questions or want to get in touch with us, feel free to contact us via email:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Project Team Email: hear2see.recep@gmail.com
 
 Please provide detailed information and feedback when reaching out to us.
 
