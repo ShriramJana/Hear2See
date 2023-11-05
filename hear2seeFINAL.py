@@ -161,10 +161,13 @@ if selected == "Image Upload":
 def sendEmail(email, subjectentered, body):
      # Email configuration
      sender_email = 'hear2see.sender@gmail.com'
-     sender_password = 'GMAIL PASSWORD' # Replace with gmail app password
+     sender_password = 'GMAIL PASSWORD'
      recipient_email = 'hear2see.recep@gmail.com'
      subject = subjectentered
-     message = body + "\n Contact Information: " + email
+     if email == "": 
+         message = body + "\n Contact Information: Anonymous"
+     else:
+         message = body + "\n Contact Information: Anonymous" + email
      
      # Create a message
      msg = MIMEMultipart()
@@ -179,20 +182,18 @@ def sendEmail(email, subjectentered, body):
          server.login(sender_email, sender_password)
          server.sendmail(sender_email, recipient_email, msg.as_string())
          server.quit()
-         print('Email sent successfully')
+         st.success('Email Sent Successfully!', icon="✅")
      except Exception as e:
          print(f'Error: {e}')
             
        
 if selected == "Contact":
     st.header(":mailbox: Get In Touch With Us!")
-    email = st.text_input("Enter Your Email")
+    email = st.text_input("Enter Your Email Or Enter Nothing To Submit Anonymously")
     subjectentered = st.text_input("Enter Email Subject")
     txt = st.text_area("Enter Email Body")
     if st.button("Send Email"):
         sendEmail(email, subjectentered, txt)
-        st.success('Email Sent Successfully!', icon="✅")
-
-
-
-
+        
+        
+        
