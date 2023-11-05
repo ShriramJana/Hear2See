@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 PROJECT_ID = 'see-to-hear'  # Replace with your Google Cloud project ID
 LOCATION = 'us-central1'  # Replace with the appropriate location
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Set the path to your service account key JSON file
 credentials_path = os.path.expanduser("~/Downloads/see-to-hear-98a970ebb62b.json")
@@ -50,7 +50,7 @@ def gen(filegiven):
        # Convert bytes to a PIL Image
        source_image = PILImage.open(io.BytesIO(image_bytes))
 
-       st.image(source_image, caption="Uploaded Image")
+       #st.image(source_image, caption="Uploaded Image")
 
        # Save the uploaded file to a temporary location
        with open("temp_image.jpg", "wb") as f:
@@ -179,6 +179,7 @@ if selected == "Image Upload":
     st.write("Select and share photos from your personal collection.")
     uploaded_file = st.file_uploader("Choose a file less than 4MB", type=("png", "jpg", "jpeg", "heic"))
     if uploaded_file is not None:
+       st.image(uploaded_file)
        gen(uploaded_file)
        
        
