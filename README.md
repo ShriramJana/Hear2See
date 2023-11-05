@@ -1,5 +1,3 @@
-Creating a README for a GitHub repository is essential to provide information about the project and how to use it. Here's a README file based on your provided code:
-
 ```markdown
 # Hear-2-See 🌟 - Bridging the Gap Between Sight and Sound
 
@@ -17,9 +15,7 @@ Hear-2-See is an innovative assistive technology project designed to empower ind
 
 2. **Real-Time Feedback:** Users receive instant audio feedback, enabling them to navigate their surroundings more effectively, interact with their environment, and gain a deeper understanding of the world around them.
 
-3. **AI Learning:** The system continues to learn and adapt to the user's preferences and feedback, enhancing the overall experience over time.
-
-4. **Empowerment:** Hear-2-See is not just a tool; it's a bridge to independence and inclusivity for the visually impaired. It empowers them to make informed decisions, enjoy richer experiences, and engage more fully in their daily lives.
+3. **Empowerment:** Hear-2-See is not just a tool; it's a bridge to independence and inclusivity for the visually impaired. It empowers them to make informed decisions, enjoy richer experiences, and engage more fully in their daily lives.
 
 Hear-2-See is breaking down barriers and promoting a world where everyone, regardless of their visual abilities, can experience the world with greater confidence and understanding. Join us on this incredible journey of sensory transformation! 🌎🔊🖼️
 
