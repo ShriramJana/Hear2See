@@ -27,7 +27,7 @@ To run this application locally, you'll need to set up the required credentials 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/hear-2-see.git
+   git clone https://github.com/ShriramJana/Hear2See
    cd hear-2-see
    ```
 
