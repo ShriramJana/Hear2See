@@ -32,8 +32,7 @@ To run this application locally, you'll need to set up the required credentials 
    ```
 
 2. **Install Dependencies**:
-   ```bash
-
+```bash
 Make sure to install the following Python packages to run the application:
 
 - Streamlit
